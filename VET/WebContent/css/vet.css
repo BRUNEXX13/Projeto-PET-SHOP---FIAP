@@ -1,0 +1,469 @@
+@CHARSET "ISO-8859-1";
+
+
+
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 2.4em;
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+
+
+
+
+body {
+	
+	background-image: url("../img/dog2.jpg");
+	background-color: #67C1B7;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	overflow: auto;
+    padding:0px;
+}
+
+
+#pag1 {
+
+  	height: 752px;
+	width: 1440px;
+	
+
+	
+}
+	
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 2.4em;
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+#topo {
+	border: medium;
+	text-align: left;
+	height: 15px;
+	padding: 2px;
+}
+
+#cabecalho {
+	border: solid;
+	height: 150px;
+	width: 1185px;
+	background-image: url("../img/front1.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 1000px 150px;
+	background-color: white;
+	
+}	
+
+#menu {
+	border: dotted;
+	background-image: url("../img/dog.jpg");
+	background-position:center;
+	border-style: solid;
+	width: 299px;
+	height: 400px;
+	float: left;
+	margin-right: 1px
+	
+}
+
+#conteudo {
+	height: 700px;
+	width: 879px;
+	float: left;
+	margin-top: 0px;
+	border-style: solid;
+	background-image: url("../img/backpat.jpg");
+	background-position:center;
+	backgroun-size:50%;
+	font-family: sans-serif;
+	
+}
+
+#lateral {
+	border-style: solid;
+	width: 205px;
+	height: 856px;
+	float: right;
+	margin-top: -156px;
+	background-image: url("../img/pata.jpg");
+	background-size: 50%;
+	background-repeat: repeat;
+	background-position: center;
+
+	
+
+
+	
+	
+	
+}
+
+#rodape {
+	margin-top: 1000px;
+	border-style: solid;
+	clear: left;
+	height: 30px;
+	font-style: italic;
+	
+}
+
+#rodape1 {
+	
+	margin-top: 410px;
+	border-style: solid;
+	clear: left;
+	height: 20px;
+	font-style: italic;
+	margin-top:
+	
+}
+
+
+#cadastrar{
+	
+	
+	height:40px;
+	width: 100px;
+	float: left;
+	margin-left: 40´x
+	
+}
+
+#agendarservico{
+	
+	
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: 20px;
+	
+}
+
+
+
+#login{
+	
+	text-align: justify;
+	border:solid;
+	text-decoration: overline;
+
+	
+}
+
+
+#contato{
+	
+	
+
+}
+	
+
+
+
+
+
+#metododepagamento {
+	text-align: center;
+	text-decoration: 
+	
+
+	
+}
+#bandeiras{
+	
+	width: 50px;
+	height: 30px;
+	
+	
+}
+
+#formulario
+{
+	text-align: left;
+	text-decoration: none;
+	
+	
+}
+
+
+#cidade{
+	
+	float:left;
+	
+}
+
+.i2Style{
+font:bold 24px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color: transparent;
+background: white;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:70px;
+padding:20px 43px;
+cursor:pointer;
+margin:0 auto;
+}
+
+.i2Style:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+
+#conteudo2{
+	
+	
+	height: 700px;
+	width: 879px;
+	float: left;
+	margin-top: 0px;
+	border-style: solid;
+	background-image: url("../img/petbar.jpg");
+	background-size: 50%;
+	background-position: top;
+	
+	
+
+}
+
+#agendamento{
+	
+	border:medium;
+	border-style: solid;
+	height: 600px;
+	width: 650px;
+	margin-top: 50px;
+	margin-left: 130px;
+	background-image: url("../img/4dog.jpg");
+	background-size: 100%;
+	font-family: 
+
+	
+	
+}
+#cliente{
+	
+	text-align: right
+	
+	
+	
+	
+}
+#formulario2{
+	
+	text-align: left;
+	
+	
+}
+
+.box{
+	
+	width: 100%;
+	float: right;
+}
+#box2{
+	
+	
+	margin-top: -85px;
+	margin-left: 120px;
+	
+}
+
+.i2Style{
+font:bold 24px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color: transparent;
+background: white;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:70px;
+padding:20px 43px;
+cursor:pointer;
+margin:0 auto;
+
+}
+
+
+.i2Style3{
+font:bold 24px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color: transparent;
+background: whitesmoke;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:70px;
+padding:20px 43px;
+cursor:pointer;
+margin:0 auto;
+
+}
+
+.i2Style3:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+	
+
+#formcontato
+
+{
+	font-family: calibri;
+	 width: 390px;
+        height: 175px;
+    }
+ 
+    input:hover, textarea:hover {
+        background: #eee;
+    }
+ 
+    input.submit {
+        width: 150px;
+        color: #eee;
+        text-transform: uppercase;
+        margin-top: 10px;
+        background-color: #18a5cc;
+        border: none;
+ 
+        -webkit-transition: -webkit-box-shadow 0.3s linear;
+ 
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px; 
+ 
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#18a5cc), to(#0a85a8));
+        background: -moz-linear-gradient(25% 75% 90deg,#0a85a8, #18a5cc);
+    } 
+ 
+    input.submit:hover {
+        -webkit-box-shadow: 0px 0px 20px #555;
+        -moz-box-shadow: 0px 0px 20px #aaa;
+        box-shadow: 0px 0px 20px #555;
+        cursor:  pointer;
+    }
+	
+}
+
+
+
+

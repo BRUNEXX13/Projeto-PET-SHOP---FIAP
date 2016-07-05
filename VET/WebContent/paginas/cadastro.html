@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Pag 1</title>
+
+<link rel="stylesheet" type="text/css" href="../css/vet.css">
+
+<script type="text/javascript" src="../js/pet.js"></script>
+
+
+</head>
+<body>
+
+
+	<div id="topo">PetShopWeb</div>
+	<div id="cabecalho"></div>
+
+	<section>
+		<div id="menu">
+			<div id="cadastrar">
+				<div id="agendar">
+					<div id="login">
+					<div id="contato">
+						<span><a href="home.html">Home</a></span><br>
+						
+					 <span><a href="cadastro.html">Cadastro</a></span>
+							
+							<span><a href="agendar.html">Agendar</a></span>
+							
+							<span><a href="contato.html">Contato</a></span>
+					</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<div id="conteudo">Cadastro De Clientes
+	<div class="flut" style="float: left; margin-left: 0%;">
+		
+
+		<div id="metododepagamento">
+			Método de Pagamento <br> <br> <input type="radio"
+				name="opcao" value="Hipercard" /> <img alt="Hipercard"
+				src="../img/hipercard.gif" id="bandeiras"> <input type="radio"
+				name="opcao" value="America" /> <img alt="America"
+				src="../img/amex.png" id="bandeiras"> <input type="radio"
+				name="opcao" value="Visa" /> <img alt="Visa" src="../img/visa.png"
+				id="bandeiras"> <input type="radio" name="opcao"
+				value="Boleto" /> <img alt="Boleto" src="../img/boleto.jpg"
+				id="bandeiras"> <input type="radio" name="opcao" value="Amex" />
+			<img alt="Amex" src="../img/amex.png" id="bandeiras"> 
+			 <input type="radio" name="opcao" value="PayPal" />
+			<img alt="Paypal" src="../img/paypal.png" id="bandeiras"> 
+			
+			
+			
+			
+			<br>
+			<br>
+
+			<div id="formulario">
+
+				<label>Nome do Cliente</label> <input type="text" name="nome"
+					style="width: 250px" placeholder="nome"> <input type="text"
+					name="Sobrenome" style="width: 250px" placeholder="sobrenome">
+				<br /> <br />
+
+				<div style="float: left; margin-left: 0%;">
+
+					<label>E-mail Cliente:</label> <input type="email" name="email"
+						style="width: 360px" placeholder="nome@exemplo.com">
+				</div>
+				<br /> <br />
+				<div style="float: left;">
+					<label>Endereço do Cliente:</label> <input type="text"
+						name="endereco" style="width: 360px"
+						placeholder="Rua/Avenida/Alameda"><br /> <br /> 
+						<input type="text" name="complemento"
+						style="margin-left: 23%; width: 490px" placeholder="Complemento">
+						<br><br>
+				</div>
+				<br></br>
+				<div id="cidade">
+				<select style="margin-left: 110px; width: 250px">
+					<option value="">Cidade</option>
+					<option value="Aguas de Lindoia">Aguas de Lindóia</option>
+					<option value="Barra Bonita">Barra Bonita</option>
+					<option value="Cabreuva">Cabreúva</option>
+					<option value="Diadema">Diadema</option>
+					<option value="Eldorado">Eldorado</option>
+					<option value="Ferraz de Vasconcelos">Ferraz de
+						Vasconcelos</option>
+					<option value="Guaianases">Guaianases</option>
+					<option value="Mogi das Cruzes">Mogi das Cruzes</option>
+					<option value="Osasco">Osasco</option>
+					<option value="Poa">Poá</option>
+					<option value="Santo Andre">Santo André</option>
+					<option value="Sao Paulo">São Paulo</option>
+					<option value="Suzano">Suzano</option>
+
+				</select> <select style="width: 200px">
+					<option value="">Estado</option>
+					<option value="SaoPaulo">São Paulo</option>
+					<option value="AC">Acre</option>
+					<option value="AM">Amazonas</option>
+					<option value="BA">Bahia</option>
+					<option value="DF">Distrito Federal</option>
+					<option value="GO">Goias</option>
+					<option value="MG">Minas Gerais</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="RS">Rio Grande do Sul</option>
+					<option value="SC">Santa Catarina</option>
+					<option value="TO">Tocantins</option>
+				</select> <br />
+				<br />
+
+				<form>
+					<label>CEP: <input required name="cep"
+						pattern="[0-9]{5}-[0-9]{3}"></label>
+				</form>
+				
+				<div style="float: left; margin-left: 0%;">
+						<br /> <label>Identificação:</label> <input type="text" name="Rg"
+							style="width: 250px" placeholder="00.000.000-0"> <input
+							type="text" name="Cpf" style="width: 250px"
+							placeholder="000.000.000-00">
+					</div>
+					
+					<div style="float: left; margin-left: 0%;">
+						<br /> <label>Contato:</label> <input type="text" name="fixo"
+							style="width: 250px" placeholder="Tel: (dd) 0000-0000"> <input
+							type="text" name="celular" style="width: 250px"
+							placeholder="Cel: (dd) 9 0000-0000"><br><br>
+							
+								
+							
+							<div class="i2Style" value="alert" onclick="alerta()">Enviar</div>
+							
+			</div>				
+			</div>				
+			</div>	
+			</div>
+
+			</div>
+		</div>
+	
+		<section>
+			<div id="lateral">
+			<a href="http://www.cobasi.com.br/?gclid=CJjc0fCwo8wCFYaAkQodgNUJrA">
+			</a>
+			</div>
+		</section>
+	
+	
+	
+	
+	
+	
+	
+	<div id="rodape">
+	<label>Rua dos Dogs 1900 - Alameda do Viralata - Cep 04530-003</label>
+	<label>Contato - 11-3344-5890</label>
+	
+	
+	</div>
+	
+
+
+
+
+
+
+
+
+</body>
+</html>
